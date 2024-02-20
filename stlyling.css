@@ -1,0 +1,160 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+/* Css-Cascading Style Sheets  */
+
+body {
+    color: #393232;
+    font-family: sans-serif;
+    border-top: 10px solid #61ddc6;
+    position: relative;
+}
+.main-header {
+    background-color: beige;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+}
+.post-header {
+    margin-bottom: 40px;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.post-img {
+    width: 100%;
+    height: auto;
+}
+nav {
+    font-size: 20px;
+    text-align: center;
+}
+article {
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+aside {
+    background-color: blanchedalmond;
+    border-top: 5px solid #4298b0;
+    border-bottom: 5px solid salmon;
+    padding: 50px 40px;
+    width: 700px;
+    /* color: aquamarine; */
+    
+}
+h1,h2,h3,h4{
+    color: #102429;
+}
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style: initial ;
+    text-align: center;
+}
+h1::first-letter {
+    font-style: normal;
+    margin-left: 105px;
+    color: rgb(8, 136, 140);
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #393232;
+    text-align: center;
+    position: relative;
+}
+h2::before {
+    content: "TOP";
+    background-color: rgb(54, 194, 156);
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+}
+h3 {
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+h3 + p::first-letter {
+    color: aquamarine;
+
+}
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+button {
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    bottom: 50px;
+    right: 120px;
+}
+nav a:link {
+    /* background-color: rgb(86, 66, 160); */
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+nav a:link:last-child {
+    margin-right: 0;
+}
+
+/* styling links */
+
+/* LHVA - Link Hover Visited Active */
+
+a:link {
+    color: #61ddc6;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+a:visited {
+    color: aquamarine;
+}
+a:hover {
+    color: turquoise;
+    font-weight: bold;
+    text-decoration: underline turquoise;
+}
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+ul,ol {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+li {
+    font-size: 20px;
+    margin-bottom: 10xp;
+}
+li:nth-child(odd){
+    color: cadetblue;
+}
+#author {
+    font-style: italic;
+    font-size: 20px;
+}
+#copyright {
+    font-size: 18px;
+    text-align: center;
+}
