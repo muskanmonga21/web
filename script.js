@@ -57,3 +57,56 @@ console.log(Boolean(''));
 console.log(Boolean(undefined));
 console.log(Boolean(null));
 console.log(Boolean(NaN)); 
+
+// EQUALITY OPERATOR
+
+console.log(18===18);
+console.log(18=='18');
+let day= "Wednesday";
+switch(day){
+    case"Monday":{
+        console.log("First day of the week.");
+        break;}
+
+    case"Tueasday":{
+        console.log("Second day of the week.");
+        break;}
+
+    case"Wednesday":{
+        console.log("Third day of the week.");
+        break;}
+
+    case"Thrusday":{
+        console.log("Forth day of the week.");
+        break;}
+
+    case"Friday":{
+        console.log("Fifth day of the week.");
+        break;}
+
+    case"Saturday":{
+        console.log("Sixth day of the week.");
+        break;}    
+    
+    case"Sunday":{
+        console.log("Seventh day of the week.");
+        break;}
+}
+
+// IF OR ELSE
+
+let salary= 1000;
+if(salary){
+    console.log("Do nit spend it all on Pizza only!!");
+}
+else{
+    console.log("What are you gonna do now?");
+}
+
+let height= 105;
+if(height){
+    console.log("Height is Defined");
+}
+else{
+    console.log("Height is Undefined");
+}
